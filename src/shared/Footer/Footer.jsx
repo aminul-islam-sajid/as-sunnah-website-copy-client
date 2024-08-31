@@ -1,12 +1,13 @@
 import React from 'react';
+import Container from '../../components/Container';
 
 const Footer = () => {
     return (
-        <div className="relative h-screen">
-            <h1 className="fixed bottom-0 left-1/2 transform -translate-x-1/2 text-center">
-                copywrite@rejeverd
+        <Container className=" h-screen">
+            <h1 className="block  text-center">
+                copywrite@All rights reserved
             </h1>
-        </div>
+        </Container>
     );
 };
 
