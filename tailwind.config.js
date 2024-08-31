@@ -17,7 +17,7 @@ export default {
       "3xl": "1920px", // => for 3xl devices
     },
     colors: {
-      primaryColor: "#07075d",
+      primaryColor: "#018e49",
       secondaryColor: "#bf3f6f",
       lightSecondary: "#ea4447",
       white: "#fff",

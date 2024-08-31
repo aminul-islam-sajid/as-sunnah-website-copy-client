@@ -9,6 +9,12 @@ const Nav1 = () => {
                 <Link>
                     <Icon icon="logos:youtube-icon" width="64" height="64" />
                 </Link>
+                <Link>
+                    <Icon className='text-[#0865fe]' icon="bxl:facebook-square" width="64" height="64" />
+                </Link>
+                <Link>
+                    <Icon icon="line-md:email-alt-filled" width="64" height="64" />
+                </Link>
             </div>
             <h1>1st nav</h1>
         </div>
