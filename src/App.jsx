@@ -1,10 +1,13 @@
 import React, { Suspense } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import PublicRoutes from './Routes/PublicRoutes';
+import AllNav from './shared/AllNav/AllNav';
+import Footer from './shared/Footer/Footer';
 
 const App = () => {
   return (
     <Suspense>
+      <AllNav />
       <main className='main'>
         <Routes>
           {PublicRoutes.map(({ path, Component }, index) => {
@@ -12,6 +15,7 @@ const App = () => {
           })}
         </Routes>
       </main>
+      <Footer />
     </Suspense>
   );
 };
