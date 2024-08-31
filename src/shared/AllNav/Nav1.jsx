@@ -13,7 +13,10 @@ const Nav1 = () => {
                     <Icon className='text-[#0865fe]' icon="bxl:facebook-square" width="64" height="64" />
                 </Link>
                 <Link>
-                    <Icon icon="line-md:email-alt-filled" width="64" height="64" />
+                    <Icon className='text-primaryColor' icon="line-md:email-alt-filled" width="64" height="64" />
+                </Link>
+                <Link>
+                    <Icon className='text-primaryColor' icon="ph:phone-fill" width="64" height="64" />
                 </Link>
             </div>
             <h1>1st nav</h1>
