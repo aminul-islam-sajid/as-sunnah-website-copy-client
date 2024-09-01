@@ -18,6 +18,7 @@ const Nav1 = () => {
                 <Link>
                     <Icon className='text-primaryColor' icon="ph:phone-fill" width="64" height="64" />
                 </Link>
+
             </div>
             <h1>1st nav</h1>
         </div>
