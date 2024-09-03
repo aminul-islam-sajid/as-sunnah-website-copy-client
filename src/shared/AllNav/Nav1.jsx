@@ -21,6 +21,7 @@ const Nav1 = () => {
 
             </div>
             <h1>1st nav</h1>
+
         </div>
     );
 };
