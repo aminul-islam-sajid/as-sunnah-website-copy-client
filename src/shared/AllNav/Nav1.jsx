@@ -1,10 +1,11 @@
 import { Icon } from '@iconify-icon/react/dist/iconify.js';
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Container from '../../components/Container';
 
 const Nav1 = () => {
     return (
-        <div>
+        <Container>
             <div className='flex gap-2 py-4 justify-end'>
                 <Link>
                     <Icon className='text-[#0865fe]' icon="bxl:facebook-square" width="24" height="24" />
@@ -20,7 +21,7 @@ const Nav1 = () => {
                 </Link>
                 <h1>1st nav</h1>
             </div>
-        </div>
+        </Container>
     );
 };
 

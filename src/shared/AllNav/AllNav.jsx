@@ -6,11 +6,11 @@ import Container from '../../components/Container';
 
 const AllNav = () => {
     return (
-        <Container>
+        <div>
             <Nav1 />
             <Nav2 />
             <Nav3 />
-        </Container>
+        </div>
     );
 };
 

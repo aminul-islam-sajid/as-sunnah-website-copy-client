@@ -1,19 +1,21 @@
 import React from 'react';
 import ButtonCommon from '../../components/shared/ButtonCommon';
 import logo from '../../assets/assunnah.png'
+import Container from '../../components/Container';
 
 const Nav2 = () => {
     return (
-        <div className='flex justify-between'>
-            <div>
-                <img src={logo} alt="" />
+        <Container>
+            <div className='flex justify-between mb-8 mt-6'>
+                <div>
+                    <img src={logo} alt="" />
+                </div>
+                <div className='flex gap-4'>
+                    <ButtonCommon text='My Account' />
+                    <ButtonCommon text='Donate' />
+                </div>
             </div>
-            <div className='flex gap-4'>
-                <ButtonCommon text='My Account' />
-                <ButtonCommon text='Donate' />
-            </div>
-
-        </div>
+        </Container>
     );
 };
 
