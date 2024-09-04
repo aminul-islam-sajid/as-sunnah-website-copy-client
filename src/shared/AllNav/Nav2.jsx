@@ -1,11 +1,18 @@
 import React from 'react';
 import ButtonCommon from '../../components/shared/ButtonCommon';
+import logo from '../../assets/assunnah.png'
 
 const Nav2 = () => {
     return (
-        <div>
-            <ButtonCommon text='assunnah' />
-            <h2>Nav 2</h2>
+        <div className='flex justify-between'>
+            <div>
+                <img src={logo} alt="" />
+            </div>
+            <div>
+                <ButtonCommon text='My Account' />
+                <ButtonCommon text='Donate' />
+            </div>
+
         </div>
     );
 };

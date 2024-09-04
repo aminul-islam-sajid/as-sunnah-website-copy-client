@@ -23,7 +23,11 @@ export default {
       white: "#fff",
       dark: "#3c3d3e",
     },
-    extend: {},
+    extend: {
+      // fontFamily: {
+      //   button: ['sans-serif'],
+      // },
+    },
   },
 
   plugins: [nextui()],
