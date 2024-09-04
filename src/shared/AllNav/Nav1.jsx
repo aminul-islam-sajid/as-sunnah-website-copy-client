@@ -5,23 +5,21 @@ import { Link } from 'react-router-dom';
 const Nav1 = () => {
     return (
         <div>
-            <div>
+            <div className='flex gap-2 py-4 justify-end'>
                 <Link>
-                    <Icon icon="logos:youtube-icon" width="64" height="64" />
+                    <Icon className='text-[#0865fe]' icon="bxl:facebook-square" width="24" height="24" />
                 </Link>
                 <Link>
-                    <Icon className='text-[#0865fe]' icon="bxl:facebook-square" width="64" height="64" />
+                    <Icon icon="logos:youtube-icon" width="24" height="24" />
                 </Link>
                 <Link>
-                    <Icon className='text-primaryColor' icon="line-md:email-alt-filled" width="64" height="64" />
+                    <Icon className='text-primaryColor' icon="line-md:email-alt-filled" width="24" height="24" />
                 </Link>
                 <Link>
-                    <Icon className='text-primaryColor' icon="ph:phone-fill" width="64" height="64" />
+                    <Icon className='text-primaryColor' icon="ph:phone-fill" width="24" height="24" />
                 </Link>
-
+                <h1>1st nav</h1>
             </div>
-            <h1>1st nav</h1>
-
         </div>
     );
 };
