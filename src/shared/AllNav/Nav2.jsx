@@ -8,7 +8,7 @@ const Nav2 = () => {
             <div>
                 <img src={logo} alt="" />
             </div>
-            <div>
+            <div className='flex gap-4'>
                 <ButtonCommon text='My Account' />
                 <ButtonCommon text='Donate' />
             </div>

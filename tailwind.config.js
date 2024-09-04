@@ -22,6 +22,7 @@ export default {
       lightSecondary: "#ea4447",
       white: "#fff",
       dark: "#3c3d3e",
+      text: "#f7ffff"
     },
     extend: {
       // fontFamily: {

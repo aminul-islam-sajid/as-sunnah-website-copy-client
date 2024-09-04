@@ -4,7 +4,7 @@ import React from 'react';
 const ButtonCommon = ({ text }) => {
     return (
         <div>
-            <Button className='bg-primaryColor text-white font-button text-lg' size="lg" radius="none">{text}</Button>
+            <Button className='bg-primaryColor text-text font-button text-lg rounded' size="lg">{text}</Button>
         </div>
     );
 };
