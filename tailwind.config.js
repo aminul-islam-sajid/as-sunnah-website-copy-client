@@ -18,7 +18,7 @@ export default {
     },
     colors: {
       primaryColor: "#018e49",
-      secondaryColor: "#bf3f6f",
+      nav3: "#0a3b1e",
       lightSecondary: "#ea4447",
       white: "#fff",
       dark: "#3c3d3e",
@@ -31,5 +31,5 @@ export default {
     },
   },
 
-  plugins: [nextui()],
+  plugins: [nextui(), require('daisyui')],
 };
