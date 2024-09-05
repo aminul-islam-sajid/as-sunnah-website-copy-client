@@ -50,7 +50,7 @@ const Nav3 = () => {
                 </div>
                 <div className="navbar-center hidden md:flex">
                     <Container>
-                        <ul className=" gap-12 cursor-pointer  menu-horizontal px-1">
+                        <ul className=" gap-12 cursor-pointer menu-horizontal px-1">
                             {navList}
                         </ul>
                     </Container>
