@@ -8,13 +8,25 @@ const Nav3 = () => {
         <Link to={'/'}><li className='active:text-primaryColor active:border-b-1'>Item 1</li></Link>
         <li> <a>Parent</a> </li>
         <li><a>Item 3</a></li>
+        <li><a>Item 3</a></li>
+        <li><a>Item 3</a></li>
+        <li><a>Item 3</a></li>
+        <li><a>Item 3</a></li>
+        <li><a>Item 3</a></li>
+        <li><a>Item 3</a></li>
+        <li><a>Item 3</a></li>
+        <li><a>Item 3</a></li>
+        <li><a>Item 3</a></li>
+        <li><a>Item 3</a></li>
+        <li><a>Item 3</a></li>
+        <li><a>Item 3</a></li>
     </>
     return (
         <div>
-            <div className="navbar lg:bg-nav3">
+            <div className="navbar md:bg-nav3">
                 <div className="">
                     <div className="dropdown">
-                        <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+                        <div tabIndex={0} role="button" className="btn btn-ghost md:hidden">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 className="h-5 w-5"
@@ -34,11 +46,11 @@ const Nav3 = () => {
                             {navList}
                         </ul>
                     </div>
-                    <img className='lg:hidden' src={logo} alt="logo" />
+                    <img className='md:hidden' src={logo} alt="logo" />
                 </div>
-                <div className="navbar-center hidden lg:flex">
+                <div className="navbar-center hidden md:flex">
                     <Container>
-                        <ul className=" gap-4 cursor-pointer  menu-horizontal px-1">
+                        <ul className=" gap-12 cursor-pointer  menu-horizontal px-1">
                             {navList}
                         </ul>
                     </Container>

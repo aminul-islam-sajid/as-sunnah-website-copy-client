@@ -6,7 +6,7 @@ import Container from '../../components/Container';
 const Nav2 = () => {
     return (
         <Container>
-            <div className='flex justify-between mb-8 mt-6'>
+            <div className='md:flex justify-between mb-8 mt-6 md:visible hidden'>
                 <div>
                     <img src={logo} alt="" />
                 </div>
