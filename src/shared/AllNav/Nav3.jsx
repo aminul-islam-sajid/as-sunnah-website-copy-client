@@ -2,29 +2,34 @@ import React from 'react';
 import logo from '../../assets/smLogo.png'
 import { Link } from 'react-router-dom';
 import Container from '../../components/Container';
+import UnderLine from '../UnderLine';
 
 const Nav3 = () => {
     const navList = <>
-        <Link to={'/'}><li>home</li></Link>
-        <li> <a>Parent$1</a> </li>
-        <li> <a>Parent$2</a> </li>
-        <li> <a>Parent$3</a> </li>
-        <li> <a>Parent$4</a> </li>
-        <li> <a>Parent$5</a> </li>
-        <li> <a>Parent$6</a> </li>
-        <li> <a>Parent$7</a> </li>
-        <li> <a>Parent$8</a> </li>
-        <li> <a>Parent$9</a> </li>
-        <li> <a>Parent$10</a> </li>
-        <li> <a>Parent$11</a> </li>
-        <li> <a>Parent$12</a> </li>
-        <li> <a>Parent$13</a> </li>
-        <li> <a>Parent$14</a> </li>
-        <li> <a>Parent$15</a> </li>
-        <li> <a>Parent$16</a> </li>
-        <li> <a>Parent$17</a> </li>
-        <li> <a>Parent$18</a> </li>
-        <li> <a>Parent$19</a> </li>
+        <Link to={'/'}><li className='p-4'>home</li></Link>
+        <UnderLine to={'/'}>
+            <a>underline</a>
+        </UnderLine>
+        <li className='p-4'> <a>Parent$1</a> </li>
+        <li className='p-4'> <a>Parent$1</a> </li>
+        <li className='p-4'> <a>Parent$1</a> </li>
+        <li className='p-4'> <a>Parent$1</a> </li>
+        <li className='p-4'> <a>Parent$1</a> </li>
+        <li className='p-4'> <a>Parent$1</a> </li>
+        <li className='p-4'> <a>Parent$1</a> </li>
+        <li className='p-4'> <a>Parent$1</a> </li>
+        <li className='p-4'> <a>Parent$1</a> </li>
+        <li className='p-4'> <a>Parent$1</a> </li>
+        <li className='p-4'> <a>Parent$1</a> </li>
+        <li className='p-4'> <a>Parent$1</a> </li>
+        <li className='p-4'> <a>Parent$1</a> </li>
+        <li className='p-4'> <a>Parent$1</a> </li>
+        <li className='p-4'> <a>Parent$1</a> </li>
+        <li className='p-4'> <a>Parent$1</a> </li>
+        <li className='p-4'> <a>Parent$1</a> </li>
+        <li className='p-4'> <a>Parent$1</a> </li>
+        <li className='p-4'> <a>Parent$1</a> </li>
+
     </>
     return (
         <div>
@@ -55,7 +60,7 @@ const Nav3 = () => {
                 </div>
                 <div className="hidden md:flex ">
                     <Container>
-                        <ul className="md:flex-wrap align-middle gap-4 cursor-pointer menu-horizontal py-2">
+                        <ul className="md:flex-wrap align-middle cursor-pointer menu-horizontal py-2">
                             {navList}
                         </ul>
                     </Container>
