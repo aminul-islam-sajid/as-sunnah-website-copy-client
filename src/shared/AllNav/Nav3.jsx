@@ -5,21 +5,26 @@ import Container from '../../components/Container';
 
 const Nav3 = () => {
     const navList = <>
-        <Link to={'/'}><li className='active:text-primaryColor active:border-b-1'>Item 1</li></Link>
-        <li> <a>Parent</a> </li>
-        <li><a>Item 3</a></li>
-        <li><a>Item 3</a></li>
-        <li><a>Item 3</a></li>
-        <li><a>Item 3</a></li>
-        <li><a>Item 3</a></li>
-        <li><a>Item 3</a></li>
-        <li><a>Item 3</a></li>
-        <li><a>Item 3</a></li>
-        <li><a>Item 3</a></li>
-        <li><a>Item 3</a></li>
-        <li><a>Item 3</a></li>
-        <li><a>Item 3</a></li>
-        <li><a>Item 3</a></li>
+        <Link to={'/'}><li>home</li></Link>
+        <li> <a>Parent$1</a> </li>
+        <li> <a>Parent$2</a> </li>
+        <li> <a>Parent$3</a> </li>
+        <li> <a>Parent$4</a> </li>
+        <li> <a>Parent$5</a> </li>
+        <li> <a>Parent$6</a> </li>
+        <li> <a>Parent$7</a> </li>
+        <li> <a>Parent$8</a> </li>
+        <li> <a>Parent$9</a> </li>
+        <li> <a>Parent$10</a> </li>
+        <li> <a>Parent$11</a> </li>
+        <li> <a>Parent$12</a> </li>
+        <li> <a>Parent$13</a> </li>
+        <li> <a>Parent$14</a> </li>
+        <li> <a>Parent$15</a> </li>
+        <li> <a>Parent$16</a> </li>
+        <li> <a>Parent$17</a> </li>
+        <li> <a>Parent$18</a> </li>
+        <li> <a>Parent$19</a> </li>
     </>
     return (
         <div>
@@ -48,9 +53,9 @@ const Nav3 = () => {
                     </div>
                     <img className='md:hidden' src={logo} alt="logo" />
                 </div>
-                <div className="navbar-center hidden md:flex">
+                <div className="hidden md:flex ">
                     <Container>
-                        <ul className=" gap-12 cursor-pointer menu-horizontal px-1">
+                        <ul className="md:flex-wrap align-middle gap-4 cursor-pointer menu-horizontal py-2">
                             {navList}
                         </ul>
                     </Container>
