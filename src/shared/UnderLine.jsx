@@ -6,7 +6,11 @@ const UnderLine = ({ to, children }) => {
         <NavLink
             to={to}
             className={({ isActive, isPending }) =>
-                isPending ? "pending" : isActive ? "hover:text-lightSecondary py-2 px-6 block rounded" : "hover:text-primaryColor py-2 px-6 block rounded"
+                isPending
+                    ? "pending"
+                    : isActive
+                        ? "text-lightSecondary underline active py-2 px-6 block rounded"
+                        : "hover:text-primaryColor py-2 px-6 block rounded"
             }
         >
             {children}

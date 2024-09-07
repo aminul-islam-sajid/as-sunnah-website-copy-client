@@ -7,8 +7,8 @@ import UnderLine from '../UnderLine';
 const Nav3 = () => {
     const navList = <>
         <Link to={'/'}><li className='p-4'>home</li></Link>
-        <UnderLine to={'/'}>
-            <a>underline</a>
+        <UnderLine to={'/blog'}>
+            <a className=''>underline</a>
         </UnderLine>
         <li className='p-4'> <a>Parent$1</a> </li>
         <li className='p-4'> <a>Parent$1</a> </li>
