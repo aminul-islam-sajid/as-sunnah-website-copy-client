@@ -20,7 +20,7 @@ export default {
       primaryColor: "#018e49",
       nav3: "#0a3b1e",
       lightSecondary: "#ea4447",
-      white: "#fff",
+      white: "#ffffff",
       dark: "#3c3d3e",
       text: "#f7ffff"
     },

@@ -1,5 +1,5 @@
 import React from 'react';
-import ButtonCommon from '../../components/shared/ButtonCommon';
+import ButtonCommon from '../../components/reUse/ButtonCommon';
 import logo from '../../assets/assunnah.png'
 import Container from '../../components/Container';
 
