@@ -9,8 +9,8 @@ const NavText = ({ to, children }) => {
                 isPending
                     ? "pending"
                     : isActive
-                        ? "text-lightSecondary border-b-1  active py-2  block"
-                        : "hover:text-primaryColor py-2 hover:border-b-1  block rounded"
+                        ? "text-lightSecondary border-b-1  active py-2  block mx-4"
+                        : "hover:text-primaryColor py-2 hover:border-b-1  block  mx-4"
             }
         >
             {children}
