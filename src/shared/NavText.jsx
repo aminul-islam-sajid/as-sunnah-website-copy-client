@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-const UnderLine = ({ to, children }) => {
+const NavText = ({ to, children }) => {
     return (
         <NavLink
             to={to}
@@ -9,8 +9,8 @@ const UnderLine = ({ to, children }) => {
                 isPending
                     ? "pending"
                     : isActive
-                        ? "text-lightSecondary underline active py-2 px-6 block rounded"
-                        : "hover:text-primaryColor py-2 px-6 block rounded"
+                        ? "text-lightSecondary border-b-1  active py-2  block"
+                        : "hover:text-primaryColor py-2 hover:border-b-1  block rounded"
             }
         >
             {children}
@@ -18,4 +18,4 @@ const UnderLine = ({ to, children }) => {
     );
 };
 
-export default UnderLine;
+export default NavText;

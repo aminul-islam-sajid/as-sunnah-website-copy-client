@@ -2,14 +2,12 @@ import React from 'react';
 import logo from '../../assets/smLogo.png'
 import { Link } from 'react-router-dom';
 import Container from '../../components/Container';
-import UnderLine from '../UnderLine';
+import NavText from '../NavText';
 
 const Nav3 = () => {
     const navList = <>
-        <Link to={'/'}><li className='p-4'>home</li></Link>
-        <UnderLine to={'/blog'}>
-            <a className=''>underline</a>
-        </UnderLine>
+        <NavText to={'/'}> <li className='p-2'>Home</li> </NavText>
+        <NavText to={'/blog'}>Blog</NavText>
         <li className='p-4'> <a>Parent$1</a> </li>
         <li className='p-4'> <a>Parent$1</a> </li>
         <li className='p-4'> <a>Parent$1</a> </li>
