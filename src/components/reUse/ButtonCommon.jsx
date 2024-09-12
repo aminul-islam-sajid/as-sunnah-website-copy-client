@@ -4,9 +4,9 @@ import React from 'react';
 const ButtonCommon = ({ text, style }) => {
     return (
         <div>
-            <Button className={`bg-primaryColor text-text font-button text-lg rounded ${style}`} size="lg">
+            <p className={`bg-primaryColor py-2 px-4 cursor-pointer text-white font-button text-lg rounded ${style}`} size="lg">
                 {text}
-            </Button>
+            </p>
         </div>
     );
 };
