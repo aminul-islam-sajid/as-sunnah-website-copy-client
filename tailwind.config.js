@@ -22,12 +22,12 @@ export default {
       lightSecondary: "#ea4447",
       white: "#ffffff",
       dark: "#3c3d3e",
-      text: "#f7ffff"
+      text: "#d2e2d9"
     },
     extend: {
-      // fontFamily: {
-      //   button: ['sans-serif'],
-      // },
+      fontFamily: {
+        textFamily: ['Ubuntu, SolaimanLipi, sans-serif'],
+      },
     },
   },
 

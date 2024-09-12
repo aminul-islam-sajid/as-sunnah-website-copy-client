@@ -1,11 +1,11 @@
 import React from 'react';
 import logo from '../../assets/smLogo.png'
 import Container from '../../components/Container';
-import NavText from '../NavText';
+import NavText from '../../components/reUse/NavText';
 
 const Nav3 = () => {
     const navList = <>
-        <NavText to={'/'}><li className=''>Home</li></NavText>
+        <NavText to={'/'}><li className='font-textFamily'>Home</li></NavText>
         <NavText to={'/blog'}> <li className=''>Blog</li></NavText>
         <NavText to={'/a'}> <li className=''>Blog</li></NavText>
         <NavText to={'/b'}> <li className=''>Blog</li></NavText>

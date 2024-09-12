@@ -19,7 +19,7 @@ const InputHome = () => {
                         defaultValue={10}
                         className=" input  hover:border-primaryColor bg-[#f5f5f5] w-full max-w-xs text-xl" />
 
-                    <ButtonCommon text="Donate" style="px-20 " />
+                    <ButtonCommon text="Donate" style="px-10 py-4" />
                 </div>
             </form>
         </div>
