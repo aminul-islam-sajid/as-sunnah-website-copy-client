@@ -3,7 +3,7 @@ import ButtonCommon from '../reUse/ButtonCommon';
 
 const InputHome = () => {
     return (
-        <div className='py-4  border-spacing-1 bg-white rounded'>
+        <div className='py-4  border-spacing-1 bg-white rounded-md'>
             <form>
                 <div className='flex gap-4 w-10/12 p-6'>
                     <input
