@@ -6,11 +6,13 @@ import Bg1StColor from '../../components/reUse/Bg1StColor';
 
 const AllNav = () => {
     return (
-        <Bg1StColor>
-            <Nav1 />
-            <Nav2 />
-            <Nav3 />
-        </Bg1StColor>
+        <div className='border-0'>
+            <Bg1StColor>
+                <Nav1 />
+                <Nav2 />
+                <Nav3 />
+            </Bg1StColor>
+        </div>
     );
 };
 

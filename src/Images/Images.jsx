@@ -8,6 +8,7 @@ import slide7 from '../assets/slideIMG/slide-00004.jpg'
 import slide8 from '../assets/slideIMG/slide-00005.jpg'
 import slide9 from '../assets/slideIMG/slide-00006.jpg'
 import slide10 from '../assets/slideIMG/slide-00007.jpg'
+import goldenIMG from '../assets/golden-gate.jpg'
 
 export const images = {
     slide1,
@@ -19,5 +20,8 @@ export const images = {
     slide7,
     slide8,
     slide9,
-    slide10
+    slide10,
+    // 
+    goldenIMG
+
 }
