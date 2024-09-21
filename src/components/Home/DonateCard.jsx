@@ -7,7 +7,7 @@ const DonateCard = () => {
     return (
         <Container>
             <div>
-                <CardPrimary img={images.goldenIMG} title='Hallo card' subTitle='hallo subTitle' />
+                <CardPrimary img={images.goldenIMG} title='Hallo card' subTitle='hallo subTitle' btn='Donate' />
             </div>
         </Container>
     );
