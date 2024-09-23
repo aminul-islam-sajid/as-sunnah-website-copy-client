@@ -22,7 +22,7 @@ const CardPrimary = ({ img, title, subTitle, btn }) => {
                 <h2 className="card-title justify-center  text-primaryColor">{title}</h2>
                 <p className='text-sm'>{subTitle}</p>
                 <div className="card-actions">
-                    <button className="btn w-full bg-primaryColor text-text border-none ">{btn}</button>
+                    <button className="btn w-full bg-primaryColor text-white border-none ">{btn}</button>
                 </div>
             </div>
         </div>
