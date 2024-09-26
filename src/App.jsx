@@ -7,17 +7,19 @@ import Loading from './shared/Loading';
 
 const App = () => {
   return (
-    <Suspense fallback={<Loading />}>
+    <div>
       <AllNav />
-      <main className='main'>
-        <Routes>
-          {PublicRoutes.map(({ path, Component }, index) => {
-            return <Route key={index} path={`${path}`} element={<Component />} />;
-          })}
-        </Routes>
-      </main>
+      <Suspense fallback={<Loading />}>
+        <main className='main'>
+          <Routes>
+            {PublicRoutes.map(({ path, Component }, index) => {
+              return <Route key={index} path={`${path}`} element={<Component />} />;
+            })}
+          </Routes>
+        </main>
+      </Suspense>
       <Footer />
-    </Suspense>
+    </div>
 
   );
 };
