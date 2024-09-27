@@ -3,8 +3,10 @@ import InputHome from '../components/Home/InputHome';
 import MainCarousel from '../components/Home/MainCarousel';
 import AboutText from '../components/Home/AboutText';
 import DonateCard from '../components/Home/DonateCard';
-import ProjectCard from '../components/Home/ProjectCard';
 import NewsCard from '../components/Home/NewsCard';
+import OngoingProjectCard from '../components/Home/OngoingProjectCard';
+import Projects from '../components/Home/Projects';
+import Videos from '../components/Home/Videos';
 
 const Home = () => {
     return (
@@ -14,8 +16,10 @@ const Home = () => {
             <MainCarousel />
             <AboutText />
             <DonateCard />
-            <ProjectCard />
+            <OngoingProjectCard />
             <NewsCard />
+            <Projects />
+            <Videos />
         </div>
 
     );
