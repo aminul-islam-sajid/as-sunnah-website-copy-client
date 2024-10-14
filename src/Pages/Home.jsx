@@ -7,11 +7,12 @@ import NewsCard from '../components/Home/NewsCard';
 import OngoingProjectCard from '../components/Home/OngoingProjectCard';
 import Projects from '../components/Home/Projects';
 import Videos from '../components/Home/Videos';
+import DarkMode from '../components/Them/DarkMode';
 
 const Home = () => {
     return (
-
-        <div>
+        <div className="bg-white dark:bg-nav3 text-black dark:text-text">
+            {/* <DarkMode /> */}
             <InputHome />
             <MainCarousel />
             <AboutText />

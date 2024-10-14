@@ -1,10 +1,9 @@
 import React from 'react';
-
+// Aminul islam sajid card Components setup
 const CardPrimary = ({ img, title, subTitle, btn, date, pragraph, video, littleBtn, className }) => {
     // Check if title and btn are not provided
     const cardHeight = video ? 'h-[188px]' : (!title && !btn) ? 'h-[400px]' : (btn ? 'h-[505px]' : 'h-[450px]');
     const imgPadding = (!title && !btn) ? 'mx-4 mt-4' : '';
-    // Aminul islam sajid 
     return (
         <div
             className={`
@@ -34,13 +33,9 @@ const CardPrimary = ({ img, title, subTitle, btn, date, pragraph, video, littleB
             {/*card content */}
             <div className="card-body p-8">
                 {date && <p className="text-sm text-gray-500">{date}</p>}
-
                 {title && <h2 className="card-title justify-center text-center text-primaryColor">{title}</h2>}
-
                 {subTitle && <p className='text-sm text-black text-center'>{subTitle}</p>}
-
                 {pragraph && <p className="text-xl text-gray-700">{pragraph}</p>}
-
                 {btn && (
                     <div className="card-actions">
                         <button className="btn rounded-md w-full bg-primaryColor text-white border-none">
@@ -48,7 +43,6 @@ const CardPrimary = ({ img, title, subTitle, btn, date, pragraph, video, littleB
                         </button>
                     </div>
                 )}
-
                 {littleBtn && <p className='btn-sm border border-primaryColor m-auto'>{littleBtn}</p>}
             </div>
         </div>
