@@ -5,11 +5,16 @@ import NavText from '../../components/reUse/NavText';
 
 const Nav3 = () => {
     const navList = <>
-        <NavText to={'/'}><li className='font-textFamily'>Home</li></NavText>
-        <NavText to={'/blog'}> <li className=''>Blog</li></NavText>
-        <NavText to={'/a'}> <li className=''>Blog</li></NavText>
-        <NavText to={'/b'}> <li className=''>Blog</li></NavText>
-        <NavText to={'/c'}> <li className=''>Blog</li></NavText>
+        <NavText to={'/'}><li className='text-white text-xl' >Home</li></NavText>
+        <NavText to={'/blog'}> <li className='text-white text-xl'>About</li></NavText>
+        <NavText to={'/a'}> <li className='text-white text-xl'>Project</li></NavText>
+        <NavText to={'/b'}> <li className='text-white text-xl'>Ongoing projects</li></NavText>
+        <NavText to={'/c'}> <li className='text-white text-xl'>Donor and Lifetime Member</li></NavText>
+        <NavText to={'/c'}> <li className='text-white text-xl'>Gallery</li></NavText>
+        <NavText to={'/c'}> <li className='text-white text-xl'>Video</li></NavText>
+        <NavText to={'/c'}> <li className='text-white text-xl'>Volunteer Registration</li></NavText>
+        <NavText to={'/c'}> <li className='text-white text-xl'>Video</li></NavText>
+
 
 
 
@@ -35,15 +40,15 @@ const Nav3 = () => {
                         </div>
                         <ul
                             tabIndex={0}
-                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ">
                             {navList}
                         </ul>
                     </div>
                     <img className='md:hidden' src={logo} alt="logo" />
                 </div>
-                <div className="hidden md:flex ">
+                <div className="hidden md:flex relative">
                     <Container>
-                        <ul className="md:flex-wrap align-middle cursor-pointer menu-horizontal py-2">
+                        <ul className="md:flex-wrap align-middle cursor-pointer menu-horizontal py-2 gap-2">
                             {navList}
                         </ul>
                     </Container>
