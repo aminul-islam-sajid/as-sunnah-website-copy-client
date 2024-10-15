@@ -10,6 +10,13 @@ import slide9 from '../assets/slideIMG/slide-00006.jpg'
 import slide10 from '../assets/slideIMG/slide-00007.jpg'
 import goldenIMG from '../assets/golden-gate.jpg'
 
+// gallery 
+import galleryImg1 from '../assets/gallery/iftar_gallery_4.jpg'
+import galleryImg2 from '../assets/gallery/orphan_gallery_2.jpg'
+import galleryImg3 from '../assets/gallery/relief_distribution_gallery_8.jpg'
+import galleryImg4 from '../assets/gallery/van_distribution_gallery_4.jpg'
+import galleryImg5 from '../assets/gallery/winter_clothing_gallery_5.jpg'
+
 export const images = {
     slide1,
     slide2,
@@ -22,6 +29,11 @@ export const images = {
     slide9,
     slide10,
     // 
-    goldenIMG
-
+    goldenIMG,
+    // img gallery 
+    galleryImg1,
+    galleryImg2,
+    galleryImg3,
+    galleryImg4,
+    galleryImg5
 }

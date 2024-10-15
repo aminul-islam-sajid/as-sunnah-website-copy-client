@@ -8,6 +8,7 @@ import OngoingProjectCard from '../components/Home/OngoingProjectCard';
 import Projects from '../components/Home/Projects';
 import Videos from '../components/Home/Videos';
 import DarkMode from '../components/Them/DarkMode';
+import Gallery from '../components/Home/Gallery';
 
 const Home = () => {
     return (
@@ -21,6 +22,7 @@ const Home = () => {
             <NewsCard />
             <Projects />
             <Videos />
+            <Gallery />
         </div>
 
     );
