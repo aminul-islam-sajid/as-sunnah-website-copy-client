@@ -15,9 +15,6 @@ const Nav3 = () => {
         <NavText to={'/c'}> <li className='text-white text-xl'>Volunteer Registration</li></NavText>
         <NavText to={'/c'}> <li className='text-white text-xl'>Video</li></NavText>
 
-
-
-
     </>
     return (
         <div>
