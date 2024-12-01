@@ -43,7 +43,7 @@ const CardPrimary = ({ img, title, subTitle, btn, date, pragraph, video, littleB
                         </button>
                     </div>
                 )}
-                {littleBtn && <p className='btn-sm border border-primaryColor m-auto'>{littleBtn}</p>}
+                {littleBtn && <p className='border border-primaryColor pt-2 rounded-3xl text-center'>{littleBtn}</p>}
             </div>
         </div>
     );
