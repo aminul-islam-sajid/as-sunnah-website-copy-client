@@ -19,11 +19,10 @@ const CardPrimary = ({ img, title, subTitle, btn, date, pragraph, video, littleB
             {/* Video  */}
             {video && (
                 <div className="w-full">
-                    <iframe
-                        src={video}
+                    <iframe src={video}
                         width="100%"
                         height="188px"
-                        frameBorder="0"
+                        // frameBorder="1"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen
                         title="Embedded Video"
